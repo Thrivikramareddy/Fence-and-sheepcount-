@@ -51,7 +51,7 @@ void loop()
   digitalWrite(trigPin2, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin2, LOW);
-  delayMicroseconds(5);7
+  delayMicroseconds(5);
   time2 = pulseIn(echoPin2, HIGH);  
   dist2 = 0.034*(time2/2);
   
