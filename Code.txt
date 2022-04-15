@@ -38,7 +38,7 @@ void loop()
   delayMicroseconds(2);
   
   
-  //for sheeps entering
+  
   digitalWrite(trigPin1, HIGH);
   delayMicroseconds(10);
   digitalWrite(trigPin1, LOW);
@@ -55,12 +55,14 @@ void loop()
   time2 = pulseIn(echoPin2, HIGH);  
   dist2 = 0.034*(time2/2);
   
+//for sheeps entering
   if(dist1<gateWidth){
     delay(100);
     s1.write(enteringSheep);
     delay(2000);
     sheepCount= sheepCount + 1;
-    
+ 
+//for sheeps exiting   
   }
   if(dist2<gateWidth){
     delay(100);
