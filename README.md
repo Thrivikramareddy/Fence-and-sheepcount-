@@ -1,5 +1,5 @@
 # Fence-and-sheepcount-
-## NOTE: Here i have imagined two gates, one for entry other for exit
+## NOTE: Here i have imagined two gates, one for entry and the other for exit
 ### Here the Servos are acting like gates
 
 ## Working Principles
